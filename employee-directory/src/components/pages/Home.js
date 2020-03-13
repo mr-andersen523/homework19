@@ -1,11 +1,8 @@
 import React from "react";
+import NavTabs from "../NavTabs"
 
 const Home = () => (
-  <div>
-    <h1></h1>
-    <p>
-    </p>
-  </div>
+<NavTabs></NavTabs>
 );
 
 export default Home;
