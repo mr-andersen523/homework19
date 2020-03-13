@@ -6,7 +6,7 @@ function NavTabs(props) {
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
-  <img src="../../public/Staff-Directory.png" height="30px" width="30px" alt="" ></img>
+  <span><i className="far fa-address-book" style={{color:"white", fontSize:40, padding:10}}></i></span>
   <a className="navbar-brand" href="/">Employee Directory</a>
 
   <ul class="navbar-nav ml-auto ">
