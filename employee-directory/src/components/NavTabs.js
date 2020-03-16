@@ -7,7 +7,7 @@ function NavTabs(component) {
     <span className="navbar-toggler-icon"></span>
   </button>
   <span><i className="far fa-address-book" style={{color:"white", fontSize:40, padding:10}}></i></span>
-  <a className="navbar-brand" href="/">Employee Directory</a>
+  <a className="navbar-brand" href="/"> Company Employee Directory</a>
 
   <ul class="navbar-nav ml-auto ">
   <form className="form-inline my-2 my-lg-0 px-lg-5" >
