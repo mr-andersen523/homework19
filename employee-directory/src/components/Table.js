@@ -2,7 +2,7 @@ import React from "react";
 
 function Table(prop) {
 return (
-    <table class="table table-striped text-center table-hover">
+    <table className="table table-striped text-center table-hover">
 <thead>
     <tr>
     <th scope="col">First</th>
