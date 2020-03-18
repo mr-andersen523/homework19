@@ -1,36 +1,31 @@
-import React from "react";
+import React, { useContext } from "react";
+import PersonsContext from "./personsContext";
+//npm package to format birth dates
+import dateFormat from 'dateformat';
 
-function TableBody(prop) {
+
+//Used some randomuser3 folder code to help figure out how to use API to populate table
+
+const TableBody = () => {
+    const persons = useContext(PersonsContext);
+
 return (
     
 <tbody>
-
-<tr>
-<td></td>
-<td>Mark</td>
-<td>Otto</td>
-<td>mail123@mail.com</td>
-<td>01/01/1990</td>
-</tr>
-
-<tr>
-<td></td>
-<td>Jacob</td>
-<td>Thornton</td>
-<td>mail123@mail.com</td>
-<td>01/01/1990</td>      
-</tr>
-
-<tr>
-<td></td>
-<td>Larry</td>
-<td>the Bird</td>
-<td>mail123@mail.com</td>
-<td>01/01/1990</td>
-</tr>
+{persons.map ((person, index) => {
+    return (
+        <tr key={index}>
+            <td> <img className="rounded-circle"src={person.picture.thumbnail} alt=""/> </td>
+            <td>{person.name.first} </td>
+            <td>{person.name.last} </td>
+            <td>{person.email} </td>
+            <td>{person.phone} </td>
+            <td>{dateFormat(person.dob.date, "mediumDate")} </td>
+        </tr>
+    );
+})}
 
 </tbody>
-
 
 );
 }
