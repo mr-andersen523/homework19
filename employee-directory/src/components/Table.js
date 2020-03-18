@@ -1,7 +1,7 @@
 import React from "react";
 import TableBody from "./TableBody"
 
-function Table(prop) {
+const Table = () => {
 return (
     <table className="table table-striped text-center table-hover">
 <thead>
@@ -10,6 +10,7 @@ return (
     <th scope="col">First</th>
     <th scope="col">Last</th>
     <th scope="col">Email</th>
+    <th scope="col">Phone</th>
     <th scope="col">Date of Birth</th>
     </tr>
 
