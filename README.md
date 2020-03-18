@@ -1,33 +1,30 @@
 # Unit 19 React Homework: Employee Directory
 
+## Preview
 <img src= "/public/emp-dir-ss.png">
 
-## User Story
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+## Usage
 
-## Business Context
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name. This application aims to demonstrate the use of an employee directory.
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+## Technology Used
 
-## Acceptance Criteria
+* RandomUser.me API
+* React
+* Bootstrap
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-
-
-
+## Instructions
+- - - -
+1. Clone the repository to your working directory. 
+   1. Type `git clone` in your command line
+   2. Then copy and paste `https://github.com/mr-andersen523/homework19`
+   3. Press `enter` 
+2. In your terminal run `npm install`
+3. After installation, run `npm start`
 
 
-
-
-
+- - - - - - - - - - - - - - - - - - - - - -
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
