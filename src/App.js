@@ -13,7 +13,7 @@ const [personsState, setPersonsState] = useState([]);
 
     // Axios get with setState example and state not explicitly declared
     useEffect(() => {
-    axios.get(`http://localhost:3002/api/?results=200&nat=us`)
+    axios.get(`https://randomuser.me/api/?results=200&nat=us`)
         .then(res => {
         const personsArr  = res.data.results;
         setPersonsState(personsArr);
