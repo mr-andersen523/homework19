@@ -16,8 +16,7 @@ return (
     return (
         <tr key={index}>
             <td> <img className="rounded-circle"src={person.picture.thumbnail} alt=""/> </td>
-            <td>{person.name.first} </td>
-            <td>{person.name.last} </td>
+            <td>{person.name.first} {person.name.last} </td>
             <td>{person.email} </td>
             <td>{person.phone} </td>
             <td>{dateFormat(person.dob.date, "mediumDate")} </td>
